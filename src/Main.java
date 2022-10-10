@@ -15,7 +15,7 @@ public class Main {
         for (int i = 0; i < numArr.length; i++) {
             if (xDel == numArr[i]) {
                 for (int j = i; j < numArr.length -1; j++) {
-                    numArr[i] = numArr[i + 1];
+                    numArr[j] = numArr[j + 1];
                 }
             }
             System.out.print(numArr[i] + " ");
